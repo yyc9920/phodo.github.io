@@ -269,7 +269,8 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: #ff50ee;
+    background: #000000;
+    opacity:0.5;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -341,26 +342,6 @@ li{
     flex: 1;
 }
 
-.landing-text h1{
-    font-size: 22rem;
-    font-family: 'SongFont', sans-serif;
-    background: #F28705;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 1rem;
-    user-select: none;
-}
-
-.landing-text h2{
-    font-size: 18rem;
-    font-family: 'SongFont', sans-serif;
-    background: #F2CB05;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 1rem;
-    user-select: none;
-}
-
 .landing-text h6{
     font-size: 10rem;
     font-family: 'Marlon', sans-serif;
@@ -380,20 +361,18 @@ li{
 .about-heading{
     text-align: center;
     text-transform: uppercase;
-    line-height: 0;
     margin-bottom: 6rem;
 }
 
 .about-heading h1{
-    font-size: 12rem;
+    font-size: 7rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #BC17D9;
-    opacity: .35;
+    color: #c264d3;
 }
 
 .about-heading h6{
     font-size: 6rem;
-    font-family: 'Demode', sans-serif;
+    font-family: 'Marlon', sans-serif;
     color: #790f8c;
     font-weight: 300;
 }
