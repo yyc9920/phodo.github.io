@@ -806,6 +806,16 @@ input[type="image"]:hover{
         left: -20rem;
     }
 
+    .timeline .date h1{
+        font-size: 4rem;
+    }
+
+    .timeline .date img{
+        width: 100%;
+        box-sizing: border-box;
+        flex: 1;
+    }
+
     .timeline .date::after{
         left: -6rem;
     }
@@ -856,6 +866,16 @@ input[type="image"]:hover{
 
     .timeline .date::before{
         font-size: 1.4rem;
+    }
+
+    .timeline .date h1{
+        font-size: 3rem;
+    }
+
+    .timeline .date img{
+        width: 100%;
+        box-sizing: border-box;
+        flex: 1;
     }
 
     form{
