@@ -25,6 +25,14 @@ Contact
 }
 
 @font-face {
+
+    font-family: 'BMJUA';
+    src: url('fonts/BMJUA_ttf.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
   font-family: 'Marlon';
   src: url('fonts/marlon-webfont.woff2') format('woff2'),
        url('fonts/marlon-webfont.woff') format('woff');
@@ -133,7 +141,7 @@ a{
 }
 
 section p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'BMJUA', sans-serif;
     color: #563712;
     font-size: 1.8rem;
 }
@@ -394,7 +402,7 @@ li{
 
 .about-details p{
     font-size: 2.5rem;
-    font-family: 'Babydoll', sans-serif;
+    font-family: 'BMJUA', sans-serif;
     color: #9012A6;
     font-weight: 300;
 }
@@ -450,7 +458,7 @@ li{
 
 .skills p{
     font-size: 2rem;
-    font-family: 'Babydoll', sans-serif;
+    font-family: 'BMJUA', sans-serif;
     color: #9012A6;
     font-weight: 300;
 }
@@ -550,7 +558,7 @@ li{
 
 .portfolio-description p{
     font-size: 2rem;
-    font-family: 'Babydoll', sans-serif;
+    font-family: 'BMJUA', sans-serif;
     font-weight: 300;
     color : #9012A6;
     margin: 1rem 0;
